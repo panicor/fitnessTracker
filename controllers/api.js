@@ -56,3 +56,5 @@ router.get("/workouts/range", (req, res) => {
         res.json(err)
     })
 })
+
+module.exports = router;
